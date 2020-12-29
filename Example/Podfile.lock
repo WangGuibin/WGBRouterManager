@@ -1,5 +1,5 @@
 PODS:
-  - WGBRouterManager (1.0.0)
+  - WGBRouterManager (1.0.2)
 
 DEPENDENCIES:
   - WGBRouterManager (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WGBRouterManager: 1b6227f46c706141a4a95373305221d255d8bb59
+  WGBRouterManager: 9fcc4b969904590beaed4536ab4b1baa6b8ddc1f
 
-PODFILE CHECKSUM: 8a1147a16e8f12bd0ddc898ef1761878ae45e4d2
+PODFILE CHECKSUM: bc80de85025c349e19d9d1a81258e669e9753b77
 
 COCOAPODS: 1.10.0

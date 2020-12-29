@@ -10,13 +10,10 @@
 		2379247B3EDE421B5076A76934F9708C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		2B366B5F3DB4D4DC640DA46497E13B02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		2CF43DF92955E1B7FCFF3DDD77F0EE44 /* WGBRouterManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3222C2D1AD6DDABF3067FB5B4230C473 /* WGBRouterManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65863D3AC9B556D6DFB2138AA4F79CBB /* Pods-WGBRouterManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C2144E4E5AEBE077CDDB43586A3E7C /* Pods-WGBRouterManager_Example-dummy.m */; };
+		65863D3AC9B556D6DFB2138AA4F79CBB /* Pods-WGBRouterManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 390E4E8923895F057878CFBB5E0B0CB8 /* Pods-WGBRouterManager_Example-dummy.m */; };
 		7127E698C620776B37244F322B1D3583 /* WGBRouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CADE201CD1FEC4157B687743C9DD83C /* WGBRouterManager.m */; };
-		8D4A8D3E2E3DD897073013BB4A3C6B93 /* Pods-WGBRouterManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F835303BE04ED89AF62E1F0676A7D9A /* Pods-WGBRouterManager_Tests-dummy.m */; };
 		AB51F985DF936E6FDD3C818BBDFDB6C2 /* WGBRouterManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A16F5A75D37D8ED26CDB2AAF7FC21BF /* WGBRouterManager-dummy.m */; };
-		D00663D3A092E30BA9212AAAD9650CE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E0FFB6CEFC67C23C628A92BB22B8A6F3 /* Pods-WGBRouterManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 292D3B5CC5642387DD20AF27B1457BB3 /* Pods-WGBRouterManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4392BC577A904B7D08A8F1C21C60D52 /* Pods-WGBRouterManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3927529E3045FCAF68047481D1CCC2CC /* Pods-WGBRouterManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4392BC577A904B7D08A8F1C21C60D52 /* Pods-WGBRouterManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D74097A0D700F021262839E106C662C8 /* Pods-WGBRouterManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC514E6463C58E1235F95CFD9CC01357 /* WGBRouterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 26C12F30B318BFBEBE0FD9EEEA78A2E3 /* WGBRouterManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -28,48 +25,32 @@
 			remoteGlobalIDString = 0F35E6EE730F8DA9EFEF431ECC6BE0F4;
 			remoteInfo = WGBRouterManager;
 		};
-		4DCAFAA23771237DE88B927B277C7116 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 215AAD538E8993945668426F8091F73E;
-			remoteInfo = "Pods-WGBRouterManager_Example";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		07E8507048DBEA9D0C0DDFC816CB0DDA /* Pods_WGBRouterManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WGBRouterManager_Example.framework; path = "Pods-WGBRouterManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15FC8755DCAAF108701A2CB3EB4840E1 /* WGBRouterManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WGBRouterManager.debug.xcconfig; sourceTree = "<group>"; };
-		19767DF52697FA9C1F30536EB40A0454 /* Pods-WGBRouterManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WGBRouterManager_Example.modulemap"; sourceTree = "<group>"; };
 		1A16F5A75D37D8ED26CDB2AAF7FC21BF /* WGBRouterManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WGBRouterManager-dummy.m"; sourceTree = "<group>"; };
-		1C1327BAAD7A048FE51C1E06CCB8E0B0 /* Pods-WGBRouterManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WGBRouterManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1C7B8F284CA7EA4C65C5F1F6CF4EFB29 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		229679F4BD0E48BCECAC688CECBCA186 /* Pods-WGBRouterManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WGBRouterManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		26C12F30B318BFBEBE0FD9EEEA78A2E3 /* WGBRouterManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WGBRouterManager.h; path = WGBRouterManager/Classes/WGBRouterManager.h; sourceTree = "<group>"; };
-		292D3B5CC5642387DD20AF27B1457BB3 /* Pods-WGBRouterManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WGBRouterManager_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2CADE201CD1FEC4157B687743C9DD83C /* WGBRouterManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WGBRouterManager.m; path = WGBRouterManager/Classes/WGBRouterManager.m; sourceTree = "<group>"; };
 		3222C2D1AD6DDABF3067FB5B4230C473 /* WGBRouterManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WGBRouterManager-umbrella.h"; sourceTree = "<group>"; };
-		34A4F28A1C0BC503449502F5FC9523B8 /* Pods-WGBRouterManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WGBRouterManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3927529E3045FCAF68047481D1CCC2CC /* Pods-WGBRouterManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WGBRouterManager_Example-umbrella.h"; sourceTree = "<group>"; };
-		3F835303BE04ED89AF62E1F0676A7D9A /* Pods-WGBRouterManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WGBRouterManager_Tests-dummy.m"; sourceTree = "<group>"; };
-		432A2A8CBE4A6A71F3571AE4F127D591 /* Pods-WGBRouterManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WGBRouterManager_Example-Info.plist"; sourceTree = "<group>"; };
-		4F05A63B00D917C13EE5228BCAD1EE49 /* Pods-WGBRouterManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WGBRouterManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		390E4E8923895F057878CFBB5E0B0CB8 /* Pods-WGBRouterManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WGBRouterManager_Example-dummy.m"; sourceTree = "<group>"; };
+		421067B311224CEDAC9D633997315E8E /* Pods-WGBRouterManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WGBRouterManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		43CDD944A3C8309ACFE2AE91A4943EF8 /* Pods-WGBRouterManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WGBRouterManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4FE09C027DEE9DBFC52C67CF87491083 /* WGBRouterManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WGBRouterManager.release.xcconfig; sourceTree = "<group>"; };
-		56E04A88F3E8541E084AEC8D2BEA6BB3 /* Pods-WGBRouterManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WGBRouterManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		59776BE3516FE1375A6A68F2D3969DBF /* WGBRouterManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WGBRouterManager.modulemap; sourceTree = "<group>"; };
 		5BB2E1F01BD6CD6244E6435C812BCB26 /* WGBRouterManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WGBRouterManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5D39772BA2E97DC836AD945B2E59EFD5 /* Pods-WGBRouterManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WGBRouterManager_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6558A8AFA386AD236271945DE875181C /* Pods-WGBRouterManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WGBRouterManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		675B9009C21B93E5FC75506B69DDF740 /* Pods-WGBRouterManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WGBRouterManager_Tests.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		78AAAAD6B96E61D1D73C4320017D6CA8 /* Pods-WGBRouterManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WGBRouterManager_Tests-Info.plist"; sourceTree = "<group>"; };
-		82113D3645F61B93E145E71805E21DE0 /* Pods_WGBRouterManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WGBRouterManager_Tests.framework; path = "Pods-WGBRouterManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BDB39AAA63B9CA0166CAF5288624158B /* Pods-WGBRouterManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WGBRouterManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5F342A7B3DCAE8B9D5F1F30D84EA0BD /* Pods-WGBRouterManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WGBRouterManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AC917245BEE67ECC91A47CDECBCD37BE /* Pods-WGBRouterManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WGBRouterManager_Example-Info.plist"; sourceTree = "<group>"; };
 		D250BCE0B03DD2D508BF200AFAB79078 /* WGBRouterManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WGBRouterManager-Info.plist"; sourceTree = "<group>"; };
+		D59CC4E850515BD9A629E57F7A5697E9 /* Pods-WGBRouterManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WGBRouterManager_Example.modulemap"; sourceTree = "<group>"; };
+		D74097A0D700F021262839E106C662C8 /* Pods-WGBRouterManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WGBRouterManager_Example-umbrella.h"; sourceTree = "<group>"; };
 		D9B9F99683E6F0010918FA5DA44C48F9 /* WGBRouterManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WGBRouterManager-prefix.pch"; sourceTree = "<group>"; };
-		DCD079890852C10F7A56132C6D9E0F0B /* Pods-WGBRouterManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WGBRouterManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E4006817160FEEFD17C000A760998FC1 /* Pods-WGBRouterManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WGBRouterManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F3C2144E4E5AEBE077CDDB43586A3E7C /* Pods-WGBRouterManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WGBRouterManager_Example-dummy.m"; sourceTree = "<group>"; };
+		F59E498E1DF29DA75B425704ED8D6CFE /* Pods-WGBRouterManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WGBRouterManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F810B3FCA079A8998AFDABBC3D2BF43F /* WGBRouterManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WGBRouterManager.framework; path = WGBRouterManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8EF41948C5401A24250966E55413C96 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,14 +72,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A46E9CC0237B188B5F9B1C180FF7B26A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D00663D3A092E30BA9212AAAD9650CE1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -110,21 +83,21 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		40D193EAB31169774CCEE2FADADF54EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07E8507048DBEA9D0C0DDFC816CB0DDA /* Pods_WGBRouterManager_Example.framework */,
+				F810B3FCA079A8998AFDABBC3D2BF43F /* WGBRouterManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		7984A99AFF3C720AF95E85F4545858AE /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EA4152D42659FC5A818ABD1DAD84FF36 /* Pods-WGBRouterManager_Example */,
-				F96B85131828220411D1B21DB8B89D8A /* Pods-WGBRouterManager_Tests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		89038DC5C5590E26FBC02FBD1D0D6D2B /* Support Files */ = {
@@ -142,14 +115,29 @@
 			path = "Example/Pods/Target Support Files/WGBRouterManager";
 			sourceTree = "<group>";
 		};
-		A5B02D170D0E4C6BE25EC6C6C287074A /* Products */ = {
+		A4FE50C20AA7204BE3D5D313AC5BE628 /* Pods-WGBRouterManager_Example */ = {
 			isa = PBXGroup;
 			children = (
-				07E8507048DBEA9D0C0DDFC816CB0DDA /* Pods_WGBRouterManager_Example.framework */,
-				82113D3645F61B93E145E71805E21DE0 /* Pods_WGBRouterManager_Tests.framework */,
-				F810B3FCA079A8998AFDABBC3D2BF43F /* WGBRouterManager.framework */,
+				D59CC4E850515BD9A629E57F7A5697E9 /* Pods-WGBRouterManager_Example.modulemap */,
+				229679F4BD0E48BCECAC688CECBCA186 /* Pods-WGBRouterManager_Example-acknowledgements.markdown */,
+				421067B311224CEDAC9D633997315E8E /* Pods-WGBRouterManager_Example-acknowledgements.plist */,
+				390E4E8923895F057878CFBB5E0B0CB8 /* Pods-WGBRouterManager_Example-dummy.m */,
+				43CDD944A3C8309ACFE2AE91A4943EF8 /* Pods-WGBRouterManager_Example-frameworks.sh */,
+				AC917245BEE67ECC91A47CDECBCD37BE /* Pods-WGBRouterManager_Example-Info.plist */,
+				D74097A0D700F021262839E106C662C8 /* Pods-WGBRouterManager_Example-umbrella.h */,
+				F59E498E1DF29DA75B425704ED8D6CFE /* Pods-WGBRouterManager_Example.debug.xcconfig */,
+				A5F342A7B3DCAE8B9D5F1F30D84EA0BD /* Pods-WGBRouterManager_Example.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-WGBRouterManager_Example";
+			path = "Target Support Files/Pods-WGBRouterManager_Example";
+			sourceTree = "<group>";
+		};
+		B006BFCD3291BD978A8FCC78CAEECE1C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4FE50C20AA7204BE3D5D313AC5BE628 /* Pods-WGBRouterManager_Example */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -158,8 +146,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				2A147ACA35A0A7F0582ED73C415FED09 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				A5B02D170D0E4C6BE25EC6C6C287074A /* Products */,
-				7984A99AFF3C720AF95E85F4545858AE /* Targets Support Files */,
+				40D193EAB31169774CCEE2FADADF54EC /* Products */,
+				B006BFCD3291BD978A8FCC78CAEECE1C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -193,50 +181,9 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		EA4152D42659FC5A818ABD1DAD84FF36 /* Pods-WGBRouterManager_Example */ = {
-			isa = PBXGroup;
-			children = (
-				19767DF52697FA9C1F30536EB40A0454 /* Pods-WGBRouterManager_Example.modulemap */,
-				DCD079890852C10F7A56132C6D9E0F0B /* Pods-WGBRouterManager_Example-acknowledgements.markdown */,
-				6558A8AFA386AD236271945DE875181C /* Pods-WGBRouterManager_Example-acknowledgements.plist */,
-				F3C2144E4E5AEBE077CDDB43586A3E7C /* Pods-WGBRouterManager_Example-dummy.m */,
-				5D39772BA2E97DC836AD945B2E59EFD5 /* Pods-WGBRouterManager_Example-frameworks.sh */,
-				432A2A8CBE4A6A71F3571AE4F127D591 /* Pods-WGBRouterManager_Example-Info.plist */,
-				3927529E3045FCAF68047481D1CCC2CC /* Pods-WGBRouterManager_Example-umbrella.h */,
-				1C1327BAAD7A048FE51C1E06CCB8E0B0 /* Pods-WGBRouterManager_Example.debug.xcconfig */,
-				34A4F28A1C0BC503449502F5FC9523B8 /* Pods-WGBRouterManager_Example.release.xcconfig */,
-			);
-			name = "Pods-WGBRouterManager_Example";
-			path = "Target Support Files/Pods-WGBRouterManager_Example";
-			sourceTree = "<group>";
-		};
-		F96B85131828220411D1B21DB8B89D8A /* Pods-WGBRouterManager_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				675B9009C21B93E5FC75506B69DDF740 /* Pods-WGBRouterManager_Tests.modulemap */,
-				E4006817160FEEFD17C000A760998FC1 /* Pods-WGBRouterManager_Tests-acknowledgements.markdown */,
-				4F05A63B00D917C13EE5228BCAD1EE49 /* Pods-WGBRouterManager_Tests-acknowledgements.plist */,
-				3F835303BE04ED89AF62E1F0676A7D9A /* Pods-WGBRouterManager_Tests-dummy.m */,
-				78AAAAD6B96E61D1D73C4320017D6CA8 /* Pods-WGBRouterManager_Tests-Info.plist */,
-				292D3B5CC5642387DD20AF27B1457BB3 /* Pods-WGBRouterManager_Tests-umbrella.h */,
-				BDB39AAA63B9CA0166CAF5288624158B /* Pods-WGBRouterManager_Tests.debug.xcconfig */,
-				56E04A88F3E8541E084AEC8D2BEA6BB3 /* Pods-WGBRouterManager_Tests.release.xcconfig */,
-			);
-			name = "Pods-WGBRouterManager_Tests";
-			path = "Target Support Files/Pods-WGBRouterManager_Tests";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		52108B892A3CCE4F704530FF494B0BDC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E0FFB6CEFC67C23C628A92BB22B8A6F3 /* Pods-WGBRouterManager_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		843F76C34BC42343CFE291C7E2E4D136 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -273,25 +220,6 @@
 			name = WGBRouterManager;
 			productName = WGBRouterManager;
 			productReference = F810B3FCA079A8998AFDABBC3D2BF43F /* WGBRouterManager.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		11E13D55D677EBD5FB06AC072B72BE78 /* Pods-WGBRouterManager_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 141B4E96ADA516F5C677DB4C0C46AC75 /* Build configuration list for PBXNativeTarget "Pods-WGBRouterManager_Tests" */;
-			buildPhases = (
-				52108B892A3CCE4F704530FF494B0BDC /* Headers */,
-				0F372A3E8D1F47CEFCA0D79BC552931F /* Sources */,
-				A46E9CC0237B188B5F9B1C180FF7B26A /* Frameworks */,
-				F328A990948DC7413766935F43384E49 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8A30967E28AA0D50A3731B55EEB027A2 /* PBXTargetDependency */,
-			);
-			name = "Pods-WGBRouterManager_Tests";
-			productName = "Pods-WGBRouterManager_Tests";
-			productReference = 82113D3645F61B93E145E71805E21DE0 /* Pods_WGBRouterManager_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		215AAD538E8993945668426F8091F73E /* Pods-WGBRouterManager_Example */ = {
@@ -331,12 +259,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = A5B02D170D0E4C6BE25EC6C6C287074A /* Products */;
+			productRefGroup = 40D193EAB31169774CCEE2FADADF54EC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				215AAD538E8993945668426F8091F73E /* Pods-WGBRouterManager_Example */,
-				11E13D55D677EBD5FB06AC072B72BE78 /* Pods-WGBRouterManager_Tests */,
 				0F35E6EE730F8DA9EFEF431ECC6BE0F4 /* WGBRouterManager */,
 			);
 		};
@@ -344,13 +271,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		9EBB56B7921D87CEAA84CE80862F141B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F328A990948DC7413766935F43384E49 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -367,14 +287,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0F372A3E8D1F47CEFCA0D79BC552931F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8D4A8D3E2E3DD897073013BB4A3C6B93 /* Pods-WGBRouterManager_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7F6379756957FF169593D1B38DF932B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -395,12 +307,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8A30967E28AA0D50A3731B55EEB027A2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-WGBRouterManager_Example";
-			target = 215AAD538E8993945668426F8091F73E /* Pods-WGBRouterManager_Example */;
-			targetProxy = 4DCAFAA23771237DE88B927B277C7116 /* PBXContainerItemProxy */;
-		};
 		A5195E2B264C902E746DBB0CFB388D0C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WGBRouterManager;
@@ -508,7 +414,7 @@
 		};
 		59BB9088626728E6C06B9C876A0194BA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34A4F28A1C0BC503449502F5FC9523B8 /* Pods-WGBRouterManager_Example.release.xcconfig */;
+			baseConfigurationReference = A5F342A7B3DCAE8B9D5F1F30D84EA0BD /* Pods-WGBRouterManager_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -538,71 +444,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		83E1280B848B00762ADCDF0994346FB4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56E04A88F3E8541E084AEC8D2BEA6BB3 /* Pods-WGBRouterManager_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WGBRouterManager_Tests/Pods-WGBRouterManager_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WGBRouterManager_Tests/Pods-WGBRouterManager_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8E5127DBF144E104676BEE27284E0387 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDB39AAA63B9CA0166CAF5288624158B /* Pods-WGBRouterManager_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WGBRouterManager_Tests/Pods-WGBRouterManager_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WGBRouterManager_Tests/Pods-WGBRouterManager_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -668,7 +509,7 @@
 		};
 		E0BB0CA5FB1D24B83F6BB03BE1DF4B47 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C1327BAAD7A048FE51C1E06CCB8E0B0 /* Pods-WGBRouterManager_Example.debug.xcconfig */;
+			baseConfigurationReference = F59E498E1DF29DA75B425704ED8D6CFE /* Pods-WGBRouterManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -732,15 +573,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		141B4E96ADA516F5C677DB4C0C46AC75 /* Build configuration list for PBXNativeTarget "Pods-WGBRouterManager_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8E5127DBF144E104676BEE27284E0387 /* Debug */,
-				83E1280B848B00762ADCDF0994346FB4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
