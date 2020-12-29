@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - WGBRouterManager (1.0.3):
+  - WGBRouterManager (1.0.4):
     - AFNetworking (~> 3.0)
 
 DEPENDENCIES:
@@ -30,8 +30,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  WGBRouterManager: 886c36856fc89f1dae9eb54a09f5aa964faccc1b
+  WGBRouterManager: 3e9e81d8f2c84b4567a0d64a2456cce41234adb5
 
-PODFILE CHECKSUM: bc80de85025c349e19d9d1a81258e669e9753b77
+PODFILE CHECKSUM: f8ab1d90bc83c37adc7aae77bd650300aa9acc54
 
 COCOAPODS: 1.10.0

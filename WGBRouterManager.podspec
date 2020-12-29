@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   #pod的名字 
   s.name             = 'WGBRouterManager'
   #版本号 与git的tag相关联
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   #摘要描述
   s.summary          = '测试打包静态库.'
   #详细描述

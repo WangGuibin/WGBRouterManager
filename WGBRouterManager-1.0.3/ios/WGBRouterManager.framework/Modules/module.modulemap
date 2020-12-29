@@ -1,0 +1,6 @@
+framework module WGBRouterManager {
+  umbrella header "WGBRouterManager.h"
+
+  export *
+  module * { export * }
+}

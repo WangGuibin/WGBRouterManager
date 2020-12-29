@@ -1,6 +1,6 @@
 {
   "name": "WGBRouterManager",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "summary": "测试打包静态库.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/WangGuibin/WGBRouterManager",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/WangGuibin/WGBRouterManager.git",
-    "tag": "1.0.3"
+    "tag": "1.0.4"
   },
   "platforms": {
     "ios": "9.0"
