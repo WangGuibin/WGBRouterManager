@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "WGBRouterManager"
-  s.version = "1.0.1"
+  s.version = "1.0.2"
   s.summary = "\u6D4B\u8BD5\u6253\u5305\u9759\u6001\u5E93."
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"CoderWGB"=>"864562082@qq.com"}

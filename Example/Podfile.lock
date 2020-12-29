@@ -1,15 +1,36 @@
 PODS:
-  - WGBRouterManager (1.0.2)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - WGBRouterManager (1.0.3):
+    - AFNetworking (~> 3.0)
 
 DEPENDENCIES:
   - WGBRouterManager (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   WGBRouterManager:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WGBRouterManager: 9fcc4b969904590beaed4536ab4b1baa6b8ddc1f
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  WGBRouterManager: 886c36856fc89f1dae9eb54a09f5aa964faccc1b
 
 PODFILE CHECKSUM: bc80de85025c349e19d9d1a81258e669e9753b77
 
