@@ -1,0 +1,23 @@
+{
+  "name": "WGBRouterManager",
+  "version": "1.0.0",
+  "summary": "测试打包静态库.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/WangGuibin/WGBRouterManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "CoderWGB": "864562082@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/WangGuibin/WGBRouterManager.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "WGBRouterManager/Classes/**/*",
+  "public_header_files": "WGBRouterManager/*.h"
+}
