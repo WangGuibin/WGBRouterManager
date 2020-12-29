@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WGBRouterManager'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '测试打包静态库.'
 
 # This description is used to generate tags and improve search results.
@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
   #s.vendored_libraries = 'WGBRouterManager.a'
   #s.ios.vendored_framework = 'WGBRouterManager.framework'
   s.public_header_files = 'WGBRouterManager/*.h'
-
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
   # s.resource_bundles = {
   #   'WGBRouterManager' => ['WGBRouterManager/Assets/*.png']
