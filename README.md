@@ -91,7 +91,7 @@ end
 ```
 ![报错](https://cdn.jsdelivr.net/gh/WangGuibin/WGBRouterManager/1.png)
 
-![未报错](https://cdn.jsdelivr.net/gh/WangGuibin/WGBRouterManager/1.png)
+![未报错](https://cdn.jsdelivr.net/gh/WangGuibin/WGBRouterManager/2.png)
 
 
 4. `cd`到`Example`目录下`pod install`
