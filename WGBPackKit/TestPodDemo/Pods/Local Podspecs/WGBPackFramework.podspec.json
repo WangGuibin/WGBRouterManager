@@ -1,0 +1,27 @@
+{
+  "name": "WGBPackFramework",
+  "version": "1.0.1",
+  "summary": "framework组件",
+  "description": "组件化中间件,可插拔,无侵入 易于维护和卸载",
+  "homepage": "https://github.com/xxx",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xxx": "xxxx"
+  },
+  "source": {
+    "file": "./",
+    "tag": "1.0.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": "WGBPackFramework.framework",
+  "resources": "WGBPackFramework.framework/frameworkResource.bundle",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
+}

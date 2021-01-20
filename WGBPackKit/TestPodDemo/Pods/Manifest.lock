@@ -1,0 +1,16 @@
+PODS:
+  - WGBPackFramework (1.0.1)
+
+DEPENDENCIES:
+  - WGBPackFramework (from `./MyFramework`)
+
+EXTERNAL SOURCES:
+  WGBPackFramework:
+    :path: "./MyFramework"
+
+SPEC CHECKSUMS:
+  WGBPackFramework: 0e045f4bf5286799c6fb2010fc5b844e90665b47
+
+PODFILE CHECKSUM: b3c035429f50604ac8bb6081afb3a9e1a72983b3
+
+COCOAPODS: 1.10.0
